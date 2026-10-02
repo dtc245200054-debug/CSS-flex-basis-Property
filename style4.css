@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    width: 600px;
+    gap: 10px;
+    border: 2px dashed #333;
+    padding: 10px;
+}
+.item {
+    padding: 20px;
+    background-color: lightblue;
+    text-align: center;
+}
+.item1 {
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+.item2 {
+    flex-basis: 100px;
+    flex-grow: 2;
+}
+.item3 {
+    flex-basis: 100px;
+    flex-grow: 1;
+}

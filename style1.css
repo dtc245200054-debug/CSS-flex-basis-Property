@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    gap: 10px;
+    border: 2px dashed #333;
+    padding: 10px;
+}
+.item {
+    padding: 20px;
+    background-color: lightblue;
+    text-align: center;
+}
+.item1 { flex-basis: 200px; }
+.item2 { flex-basis: 100px; }
+.item3 { flex-basis: 150px; }
